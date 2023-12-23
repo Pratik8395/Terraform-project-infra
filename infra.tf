@@ -11,9 +11,9 @@ terraform {
 
 # Region, Key, Secretkey
 provider "aws" {
-  region     = var.region
-  access_key = var.accKey
-  secret_key = var.secKey
+  region     = "eu-north-1"
+  access_key = var.access_key
+  secret_key = var.secret_key
 }
 
 
